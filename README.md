@@ -1,2 +1,2 @@
 # stepic_python_auto
-This is a huge amount of home work from course "Automation testing on Python". 
+Здесь расположены файлы проекта для курса "Автоматизация тестирования с помощью Selenium и Python"
