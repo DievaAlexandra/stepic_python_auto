@@ -15,7 +15,7 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    # находим кнопку
+    # ищем на странице кнопку бронирования
     button = browser.find_element(By.ID, "book")
 
     # ждем когда цена снизится до 100$
