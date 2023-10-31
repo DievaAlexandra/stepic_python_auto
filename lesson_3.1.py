@@ -18,14 +18,14 @@ try:
     # находим кнопку
     button = browser.find_element(By.ID, "book")
 
-    # ждем когда цена снизится до 100$
+    # ждем когда стоимость  снизится до 100$
     WebDriverWait(browser, 12).until(
         EC.text_to_be_present_in_element((By.ID, "price"), "100"))
 
     # нажимаем кнопку Book
     button.click()
 
-    #скроллим вниз
+    #скроллим внизrgegerg
     field = browser.find_element(By.ID, "answer")
     browser.execute_script("return arguments[0].scrollIntoView(true);", field)
 
@@ -47,4 +47,3 @@ finally:
     browser.quit()
 
 
-#здесь некий текст, для того чтобы отследить новый коммент. А могла быть ваша рекламаш67ш67ш67ш
